@@ -1,0 +1,89 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.king.wanandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".app.splash.SplashActivity"
+              android:resizeableActivity="true"
+              android:screenOrientation="portrait"
+              android:theme="@style/SplashAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".app.home.HomeActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".app.web.WebActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".app.account.LoginActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateVisible|adjustResize"/>
+
+        <activity android:name=".app.account.RegisterActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateVisible|adjustResize"/>
+
+        <activity android:name=".app.collect.CollectActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".app.tree.TreeActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".app.tree.TreeChildrenActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".app.search.SearchActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateVisible|adjustResize"/>
+
+        <activity android:name=".app.navi.NaviActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".app.about.AboutActivity"
+                  android:screenOrientation="portrait"/>
+
+
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.2" />
+
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:theme="@android:style/Theme.Translucent"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <meta-data
+            android:name="BUGLY_APP_CHANNEL"
+            android:value="king" />
+
+    </application>
+</manifest>

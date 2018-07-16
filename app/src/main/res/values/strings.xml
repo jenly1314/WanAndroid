@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">WanAndroid</string>
+
+    <string name="menu_collect">我的收藏</string>
+    <string name="menu_system">知识体系</string>
+    <string name="menu_project">项目分类</string>
+    <string name="menu_navi">网址导航</string>
+    <string name="menu_about">关于我们</string>
+    <string name="menu_logout">退出登录</string>
+    <string name="click_login">点击登录</string>
+
+    <string name="tips_logout_content">您确定要退出登录吗？</string>
+
+    <!-- Relative time -->
+    <string name="updated_just_now">刚刚</string>
+    <string name="updated_before_n_min">%1$d分钟前</string>
+    <string name="updated_before_n_hour">%1$d小时前</string>
+    <string name="updated_before_n_day">%1$d天前</string>
+
+    <!-- Login -->
+    <string name="login">登录</string>
+    <string name="hint_username">用户名</string>
+    <string name="hint_password">密码</string>
+    <string name="hint_re_password">确认密码</string>
+
+    <string name="tips_username_is_empty">请输入用户名，老铁。</string>
+    <string name="tips_password_is_empty">请输入密码，老铁。</string>
+    <string name="tips_re_password_is_empty">请输入确认密码，老铁。</string>
+    <string name="tips_password_is_different">密码和确认密码不一致。</string>
+
+    <string name="register_u"><u>注册</u></string>
+    <string name="register">注册</string>
+
+    <!-- success -->
+    <string name="success_login">登录成功</string>
+    <string name="success_register">注册成功</string>
+    <string name="success_collect">收藏成功</string>
+    <string name="success_un_collect">取消收藏</string>
+
+    <!-- Error -->
+    <string name="result_connect_failed_error">服务器连接失败，请稍后再试。</string>
+    <string name="result_connect_timeout_error">服务器连接超时，请稍后再试。</string>
+    <string name="result_empty_error">系统繁忙，请稍后再试。</string>
+    <string name="result_network_unavailable_error">网络不给力，请检查网络。</string>
+
+    <!-- toolbar menu -->
+    <string name="toolbar_menu_share">分享</string>
+    <string name="toolbar_menu_collect">收藏</string>
+    <string name="toolbar_menu_un_collect">取消收藏</string>
+    <string name="toolbar_menu_refresh">刷新</string>
+    <string name="toolbar_menu_explorer">用浏览器打开</string>
+
+    <!-- search -->
+    <string name="hint_search">搜索：多个关键词可用空格隔开</string>
+    <string name="label_search_history">历史搜索</string>
+    <string name="label_hot_key">热搜词</string>
+    <string name="tips_search_key_is_empty">请输入搜索的关键字</string>
+
+
+    <!-- other -->
+    <string name="tips_empty">空空如也~</string>
+    <string name="tips_double_click_exit">再按一次退出</string>
+
+    <!-- version -->
+    <string name="update_version_title">检测到新版本</string>
+    <string name="update_version_ok">升级</string>
+    <string name="tips_default_update_desc">有新的版本，现在升级？</string>
+
+</resources>

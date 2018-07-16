@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black_transparent">
+    <TextView
+        android:id="@+id/tvCollect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toolbar_menu_collect"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_collect"
+        android:drawablePadding="@dimen/size_4dp"
+        android:padding="@dimen/size_10dp"/>
+    <TextView
+        android:id="@+id/tvShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toolbar_menu_share"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawablePadding="@dimen/size_4dp"
+        android:padding="@dimen/size_10dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvCollect"/>
+    <TextView
+        android:id="@+id/tvExplorer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toolbar_menu_explorer"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_explorer"
+        android:drawablePadding="@dimen/size_4dp"
+        android:padding="@dimen/size_10dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvShare"/>
+
+</android.support.constraint.ConstraintLayout>

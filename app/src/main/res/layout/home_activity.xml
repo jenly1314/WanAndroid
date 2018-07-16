@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.king.wanandroid.app.home.HomeViewModel"/>
+
+    </data>
+
+    <com.king.view.superslidingpanelayout.SuperSlidingPaneLayout
+        android:id="@+id/sspl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_bg"
+        android:fitsSystemWindows="true"
+        app:mode="scale_menu"
+        app:compat_sliding="true">
+        <include layout="@layout/menu_layout"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_height"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp">
+                <include layout="@layout/top_title_bar"/>
+            </android.support.v7.widget.Toolbar>
+            <com.king.view.superswiperefreshlayout.SuperSwipeRefreshLayout
+                android:id="@+id/ssrl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:direction="top">
+                <android.support.v4.widget.NestedScrollView
+                    android:id="@+id/nsv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusableInTouchMode="true"
+                    android:fillViewport="true">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:descendantFocusability="blocksDescendants">
+                        <com.youth.banner.Banner
+                            android:id="@+id/banner"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/banner_height"
+                            app:is_auto_play="true"
+                            android:visibility="gone"/>
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:listitem="@layout/rv_article_item" />
+                    </LinearLayout>
+
+                </android.support.v4.widget.NestedScrollView>
+            </com.king.view.superswiperefreshlayout.SuperSwipeRefreshLayout>
+        </LinearLayout>
+    </com.king.view.superslidingpanelayout.SuperSlidingPaneLayout>
+
+</layout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menuShare"
+          android:title="@string/toolbar_menu_share"
+          android:icon="@drawable/ic_share"
+          app:showAsAction="never"/>
+    <item android:id="@+id/menuCollect"
+          android:icon="@drawable/ic_collect"
+          android:title="@string/toolbar_menu_collect"
+          app:showAsAction="never"/>
+    <item android:id="@+id/menuRefresh"
+          android:title="@string/toolbar_menu_refresh"
+          android:icon="@drawable/ic_refresh"
+          app:showAsAction="never"/>
+    <item android:id="@+id/menuExplorer"
+          android:icon="@drawable/ic_explorer"
+          android:title="@string/toolbar_menu_explorer"
+          app:showAsAction="never"/>
+</menu>

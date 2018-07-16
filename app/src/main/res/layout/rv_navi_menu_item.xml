@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="data"
+            type="com.king.wanandroid.bean.NaviBean"/>
+    </data>
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/text_3"
+        android:textSize="@dimen/size_16sp"
+        android:singleLine="true"
+        android:text='@{data.name}'/>
+
+</layout>

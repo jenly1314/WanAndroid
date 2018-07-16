@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="data"
+            type="com.king.wanandroid.bean.TreeBean"/>
+    </data>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/size_16dp"
+        android:paddingRight="@dimen/size_16dp"
+        android:paddingTop="@dimen/size_16dp"
+        android:paddingBottom="@dimen/size_16dp"
+        android:background="?android:attr/selectableItemBackground">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_16sp"
+            android:textColor="@color/text_3"
+            android:textStyle="bold"
+            android:text="@{data.name}"/>
+        <com.zhy.view.flowlayout.TagFlowLayout
+            android:id="@+id/flowLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/size_6dp"
+            android:minHeight="@dimen/size_30dp"/>
+    </LinearLayout>
+</layout>

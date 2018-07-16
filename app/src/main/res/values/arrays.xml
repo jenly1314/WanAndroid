@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tips_empty_random">
+        <item>空空如也~</item>
+        <item>让您看到这一幕，我也不想的。</item>
+        <item>数据可能被狗吃了，我也很无奈。</item>
+        <item>没有加载到数据，要不您刷新下试试。</item>
+        <item>您可能做了一个骚操作，才会出现这种场景。</item>
+        <item>可能刚刚走神，不小心让数据溜走了。</item>
+        <item>可能是真的没数据。</item>
+    </array>
+</resources>

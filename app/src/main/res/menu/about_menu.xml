@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menuNone"
+          android:title=""
+          android:icon="@drawable/btn_none"
+          app:showAsAction="always"/>
+    <item android:id="@+id/menuGithub"
+          android:title="@string/menu_github"
+          app:showAsAction="never"/>
+    <item android:id="@+id/menuSource"
+          android:title="@string/menu_source"
+          app:showAsAction="never"/>
+    <item android:id="@+id/menuIssue"
+          android:title="@string/menu_issue"
+          app:showAsAction="never"/>
+    <item android:id="@+id/menuEmail"
+          android:title="@string/menu_email"
+          app:showAsAction="never"/>
+    <item android:id="@+id/menuQQGroup"
+          android:title="@string/menu_qq_group"
+          app:showAsAction="never"/>
+</menu>

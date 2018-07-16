@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_github">GitHub</string>
+    <string name="menu_source">开源地址</string>
+    <string name="menu_issue">提Issue</string>
+    <string name="menu_email">发E-mail</string>
+    <string name="menu_qq_group">加入QQ群</string>
+
+    <string name="tips_join_qq_group_exception">未安装手Q或安装的版本不支持</string>
+
+    <string name="about_desc"><![CDATA[
+    <h2>网站内容</h2>
+        <p>\t\t\t\t本网站每天新增20~30篇优质文章，并加入到现有分类中，力求整理出一份优质而又详尽的知识体系，闲暇时间不妨上来学习下知识；
+        除此以外，并为大家提供平时开发过程中常用的工具以及常用的网址导航。</p>
+        <p>\t\t\t\t当然这只是我们目前的功能，未来我们将提供更多更加便捷的功能...</p>
+        <p>\t\t\t\t如果您有任何好的建议:</p>
+            <p><b>\t\t\t\t\t\t\t\t关于网站排版</b></p>
+            <p><b>\t\t\t\t\t\t\t\t关于新增常用网址以及工具</b></p>
+            <p><b>\t\t\t\t\t\t\t\t未来你希望增加的功能等</b></p>
+        <p>\t\t\t\t可以在<a href="https://github.com/hongyangAndroid/wanandroid" target="_blank">https://github.com/hongyangAndroid/xueandroid</a>项目中以issue的形式提出，我将及时跟进。</p>
+        <p>\t\t\t\t如果您希望长期关注本站，可以加入我们的QQ群：<b>591683946</b></p>
+    <h2>关于App</h2>
+	    <p>\t\t\t\t本App纯属个人作品，完全开源。如果您在使用的过程中遇到问题或有好的建议需要反馈，请点击右上角菜单选项联系作者，谢谢合作。</p>
+    ]]></string>
+</resources>

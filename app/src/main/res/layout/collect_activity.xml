@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.king.wanandroid.app.collect.CollectViewModel"/>
+
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/toolbar"/>
+
+        <com.king.view.superswiperefreshlayout.SuperSwipeRefreshLayout
+            android:id="@+id/ssrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:direction="top"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/rv_collect_item" />
+        </com.king.view.superswiperefreshlayout.SuperSwipeRefreshLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
