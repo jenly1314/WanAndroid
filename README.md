@@ -7,7 +7,7 @@
 [![Blog](https://img.shields.io/badge/blog-Jenly-9933CC.svg)](http://blog.csdn.net/jenly121)
 
 WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api打造的一款开源客户端。界面精美，优质体验。
-#####    App 采用MVVM模式设计，基于Architecture Components dependencies（Lifecycles，LiveData，ViewModel，Room） + Dagger + ARouter + DataBinding + Glide + Retrofit 构建。
+####    App 采用MVVM模式设计，基于Architecture Components dependencies（Lifecycles，LiveData，ViewModel，Room） + Dagger + ARouter + DataBinding + Glide + Retrofit 构建。
 
 > 里面可能包含了你想要学习的各种技术要点，欢迎star。
 
