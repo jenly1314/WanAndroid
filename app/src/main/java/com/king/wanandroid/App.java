@@ -76,7 +76,7 @@ public class App extends Application implements HasActivityInjector{
 
             if(!BuildConfig.DEBUG){
                 Timber.w(e);
-//                CrashReport.postCatchedException(e);
+                CrashReport.postCatchedException(e);
             }
         });
 
