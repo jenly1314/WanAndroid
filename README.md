@@ -3,8 +3,10 @@
 ![Image](app/src/main/ic_launcher-web.png)
 
 [![Download](https://img.shields.io/badge/download-App-blue.svg)](https://raw.githubusercontent.com/jenly1314/WanAndroid/master/app/release/app-release.apk)
+[![API](https://img.shields.io/badge/API-16%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=16)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
 [![Blog](https://img.shields.io/badge/blog-Jenly-9933CC.svg)](http://blog.csdn.net/jenly121)
+[![QQGroup](https://img.shields.io/badge/QQGroup-20867961-blue.svg)](http://shang.qq.com/wpa/qunwpa?idkey=8fcc6a2f88552ea44b1411582c94fd124f7bb3ec227e2a400dbbfaad3dc2f5ad)
 
 WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api打造的一款开源客户端。界面精美，优质体验。
 ####    App 采用MVVM模式设计，基于Architecture Components dependencies（Lifecycles，LiveData，ViewModel，Room） + Dagger + ARouter + DataBinding + Glide + Retrofit 构建。
@@ -40,6 +42,15 @@ WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api�
 
 感谢所有开源库的开发者和开源精神。
 
+## 赞赏
+如果您喜欢本项目，或感觉本项目帮助到了您，可以点右上角“Star”支持一下，您的支持就是我的动力，谢谢 :smiley:<p>
+也可以扫描下面的二维码，请作者喝杯咖啡 :coffee:
+    <div>
+        <img src="https://image-1252383324.cos.ap-guangzhou.myqcloud.com/pay/wxpay.png" width="280" heght="350">
+        <img src="https://image-1252383324.cos.ap-guangzhou.myqcloud.com/pay/alipay.png" width="280" heght="350">
+        <img src="https://image-1252383324.cos.ap-guangzhou.myqcloud.com/pay/qqpay.png" width="280" heght="350">
+    </div>
+
 ## 关于我
    Name: <a title="关于作者" href="https://about.me/jenly1314" target="_blank">Jenly</a>
 
@@ -49,8 +60,8 @@ WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api�
 
    Github: <a title="Github开源项目" href="https://github.com/jenly1314" target="_blank">jenly1314</a>
 
-   微信公众号:
-
-   ![公众号](http://olambmg9j.bkt.clouddn.com/jenly666.jpg)
-
    加入QQ群: <a title="点击加入QQ群" href="http://shang.qq.com/wpa/qunwpa?idkey=8fcc6a2f88552ea44b1411582c94fd124f7bb3ec227e2a400dbbfaad3dc2f5ad" target="_blank">20867961</a>
+   <div>
+       <img src="https://image-1252383324.cos.ap-guangzhou.myqcloud.com/jenly666.png">
+       <img src="https://image-1252383324.cos.ap-guangzhou.myqcloud.com/qqgourp.png">
+   </div>
