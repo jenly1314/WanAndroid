@@ -20,7 +20,7 @@ import dagger.android.ContributesAndroidInjector;
  * @author Jenly <a href="mailto:jenly1314@gmail.com">Jenly</a>
  */
 @Module(subcomponents = BaseActivitySubComponent.class)
-public abstract class ActivityModule {
+public abstract class   ActivityModule {
 
 //
 //    @Binds

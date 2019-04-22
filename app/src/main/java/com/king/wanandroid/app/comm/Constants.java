@@ -5,7 +5,7 @@ package com.king.wanandroid.app.comm;
  */
 public final class Constants {
 
-    public static final String BASE_URL = "http://www.wanandroid.com/";
+    public static final String BASE_URL = "https://www.wanandroid.com/";
 
 
 
