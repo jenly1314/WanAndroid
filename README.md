@@ -43,12 +43,12 @@ WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api�
 感谢所有开源库的开发者和开源精神。
 
 ## 赞赏
-如果您喜欢本项目，或感觉本项目帮助到了您，可以点右上角“Star”支持一下，您的支持就是我的动力，谢谢 :smiley:<p>
-也可以扫描下面的二维码，请作者喝杯咖啡 :coffee:
+如果您喜欢WanAndroid，或感觉WanAndroid帮助到了您，可以点右上角“Star”支持一下，您的支持就是我的动力，谢谢 :smiley:<p>
+您也可以扫描下面的二维码，请作者喝杯咖啡 :coffee:
     <div>
-        <img src="https://image-1252383324.cos.ap-guangzhou.myqcloud.com/pay/wxpay.png" width="280" heght="350">
-        <img src="https://image-1252383324.cos.ap-guangzhou.myqcloud.com/pay/alipay.png" width="280" heght="350">
-        <img src="https://image-1252383324.cos.ap-guangzhou.myqcloud.com/pay/qqpay.png" width="280" heght="350">
+        <img src="https://jenly1314.github.io/image/pay/wxpay.png" width="280" heght="350">
+        <img src="https://jenly1314.github.io/image/pay/alipay.png" width="280" heght="350">
+        <img src="https://jenly1314.github.io/image/pay/qqpay.png" width="280" heght="350">
     </div>
 
 ## 关于我
@@ -62,6 +62,7 @@ WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api�
 
    加入QQ群: <a title="点击加入QQ群" href="http://shang.qq.com/wpa/qunwpa?idkey=8fcc6a2f88552ea44b1411582c94fd124f7bb3ec227e2a400dbbfaad3dc2f5ad" target="_blank">20867961</a>
    <div>
-       <img src="https://image-1252383324.cos.ap-guangzhou.myqcloud.com/jenly666.png">
-       <img src="https://image-1252383324.cos.ap-guangzhou.myqcloud.com/qqgourp.png">
+       <img src="https://jenly1314.github.io/image/jenly666.png">
+       <img src="https://jenly1314.github.io/image/qqgourp.png">
    </div>
+
