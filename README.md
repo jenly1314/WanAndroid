@@ -27,7 +27,6 @@ WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api�
 ## 版本记录
 
 #### 2018-7-16    v1.0    初始版本
-*  Banner
 *  登录注册
 *  我的收藏
 *  知识体系
@@ -49,6 +48,7 @@ WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api�
         <img src="https://jenly1314.github.io/image/pay/wxpay.png" width="280" heght="350">
         <img src="https://jenly1314.github.io/image/pay/alipay.png" width="280" heght="350">
         <img src="https://jenly1314.github.io/image/pay/qqpay.png" width="280" heght="350">
+        <img src="https://jenly1314.github.io/image/alipay_red_envelopes.jpg" width="233" heght="350">
     </div>
 
 ## 关于我
