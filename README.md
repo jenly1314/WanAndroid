@@ -9,14 +9,15 @@
 [![QQGroup](https://img.shields.io/badge/QQGroup-20867961-blue.svg)](http://shang.qq.com/wpa/qunwpa?idkey=8fcc6a2f88552ea44b1411582c94fd124f7bb3ec227e2a400dbbfaad3dc2f5ad)
 
 WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api打造的一款开源客户端。界面精美，优质体验。
-####    App 采用MVVM模式设计，基于Architecture Components dependencies（Lifecycles，LiveData，ViewModel，Room） + Dagger + ARouter + DataBinding + Glide + Retrofit 构建。
+###  App 采用MVVM模式设计，基于Architecture Components dependencies（Lifecycles，LiveData，ViewModel，Room） + Dagger + ARouter + DataBinding + Glide + Retrofit 构建。
 
 > 里面可能包含了你想要学习的各种技术要点，欢迎star。
 
 
 ## Gif 展示
 ![Image](GIF.gif)
-##### 录制的gif效果有点不清晰，你可以直接[下载App](https://raw.githubusercontent.com/jenly1314/WanAndroid/master/app/release/app-release.apk)体验效果。
+
+> 录制的gif效果有点不清晰，你可以直接[下载App](https://raw.githubusercontent.com/jenly1314/WanAndroid/master/app/release/app-release.apk)体验效果。
 
 > 如果下载App比较慢，可以尝试使用[备用地址](https://gitee.com/jenly1314/WanAndroid/raw/master/app/release/app-release.apk)进行下载。
 
