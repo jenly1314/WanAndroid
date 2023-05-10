@@ -16,10 +16,9 @@ WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api�
 
 ## Gif 展示
 ![Image](GIF.gif)
-###### 录制的gif效果有点不清晰，你可以直接[下载App](https://raw.githubusercontent.com/jenly1314/WanAndroid/master/app/release/app-release.apk)
-体验效果
+##### 录制的gif效果有点不清晰，你可以直接[下载App](https://raw.githubusercontent.com/jenly1314/WanAndroid/master/app/release/app-release.apk)体验效果。
 
-[下载App备用地址](https://gitee.com/jenly1314/WanAndroid/raw/master/app/release/app-release.apk)
+> 如果下载App比较慢，可以尝试使用[备用地址](https://gitee.com/jenly1314/WanAndroid/raw/master/app/release/app-release.apk)进行下载。
 
 ## 版本记录
 
