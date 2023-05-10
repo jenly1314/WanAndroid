@@ -9,7 +9,8 @@
 [![QQGroup](https://img.shields.io/badge/QQGroup-20867961-blue.svg)](http://shang.qq.com/wpa/qunwpa?idkey=8fcc6a2f88552ea44b1411582c94fd124f7bb3ec227e2a400dbbfaad3dc2f5ad)
 
 WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api打造的一款开源客户端。界面精美，优质体验。
-###  App 采用MVVM模式设计，基于Architecture Components dependencies（Lifecycles，LiveData，ViewModel，Room） + Dagger + ARouter + DataBinding + Glide + Retrofit 构建。
+
+* App 采用MVVM模式设计，基于Architecture Components dependencies（Lifecycles，LiveData，ViewModel，Room） + Dagger + ARouter + DataBinding + Glide + Retrofit 构建。
 
 > 里面可能包含了你想要学习的各种技术要点，欢迎star。
 
