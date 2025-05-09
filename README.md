@@ -2,11 +2,11 @@
 
 ![Image](app/src/main/ic_launcher-web.png)
 
-[![Download](https://img.shields.io/badge/download-App-blue.svg)](https://raw.githubusercontent.com/jenly1314/WanAndroid/master/app/release/app-release.apk)
-[![API](https://img.shields.io/badge/API-16%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=16)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
+[![Download](https://img.shields.io/badge/download-APK-brightgreen?logo=github)](https://raw.githubusercontent.com/jenly1314/WanAndroid/master/app/release/app-release.apk)
+[![API](https://img.shields.io/badge/API-16%2B-brightgreen?logo=android)](https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels)
+[![License](https://img.shields.io/github/license/jenly1314/WanAndroid?logo=open-source-initiative)](https://opensource.org/licenses/mit)
 
-WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api打造的一款开源客户端。界面精美，优质体验。
+WanAndroid App 是基于 [WanAndroid](http://www.wanandroid.com) 网站提供API打造的一款开源客户端。界面精美，优质体验。
 
 * App 采用MVVM模式设计，基于Architecture Components dependencies（Lifecycles，LiveData，ViewModel，Room） + Dagger + ARouter + DataBinding + Glide + Retrofit 构建。
 
@@ -34,7 +34,7 @@ WanAndroid App 是基于[WanAndroid](http://www.wanandroid.com)网站提供Api�
 
 ## 感谢
 
-感谢[鸿洋](https://github.com/hongyangAndroid)提供的[WanAndroid Api](http://www.wanandroid.com/blog/show/2)
+感谢[鸿洋](https://github.com/hongyangAndroid)提供的[WanAndroid API](http://www.wanandroid.com/blog/show/2)
 
 感谢所有开源开发者的贡献与开源精神。
 
